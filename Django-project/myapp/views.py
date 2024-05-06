@@ -17,3 +17,5 @@ def newDesing (request):
 
 def carShop (request):
     return HttpResponse("<h1>Card Page<h1>")
+def homeIniciado(request):
+    return render(request,'homeIniciado.html')
