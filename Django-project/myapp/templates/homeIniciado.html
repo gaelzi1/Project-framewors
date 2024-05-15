@@ -9,52 +9,7 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <img class="img_logo" src='{% static "images/logo.png"%}' alt="Logo">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nuevo Diseño</a></li>
-            <li><a href="#">Contactanos</a></li>
-            <li><a href="#">Perfil</a></li>
-        </ul>
-        <a onclick="window.location.href='/carshop'" class="car-shop"><img src='{%static "images/Vector.png"%}'
-                alt="carrito de compra"></a>
-                <button class="profil-btn" onclick="openModal()"><img src="{% static 'images/perfil.png' %}" alt="Perfil"></button>
-
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="closeModal()">&times;</span>
-                        <div class="content1">
-                        <h2>iniciar sesion </h2>
-                        <p class="text-inp">email o numero de Telefono</p>
-                        <input class="input" type="text">
-                        <p class="text-inp">contraseña</p>
-                        <input class="input" type="password">
-                    </div>
-                    <div class="content2">
-                        <h2>¿No tienes cuenta?</h2>
-                        <p class="">Regístrate super rápido y recibe todos los beneficios de ser un usuario</p>
-                        <button><a href="">me quiero registrar</a></button>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="overlay" onclick="closeModal()"></div>
-        <div id="profile-box" class="hidden">
-            <!-- Content of the white box -->
-        </div>
-
-
-    </div>
-
-    <div class="search-container">
-        <input type="text" placeholder="Busca por categoría o nombre de productos">
-    </div>
-
-    <div class="cuadro">
-        <!-- Contenido del cuadro -->
-
-    </div>
+    
 
     <div class="footer">
         <p>Todos los derechos reservados &copy; 2022</p>
