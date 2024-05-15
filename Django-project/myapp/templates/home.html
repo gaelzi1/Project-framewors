@@ -8,35 +8,16 @@
     
 </head>
 <body>
-    <div class="navbar">
-        <img class="img_logo"  src='{% static "images/logo.png"%}' alt="Logo" >
-        
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nuevo Diseño</a></li>
-            <li><a href="#">Contactanos</a></li>
-           
-        </ul>
-        
-        <a onclick="window.location.href='/carshop'" class="car-shop"><img src='{%static "images/Vector.png"%}' alt="carrito de compra"></a>
-        <a href="" class="profil" onclick="openModal()"><img src='{%static "images/perfil.png"%}' alt="Perfil"></a>
-        </div>
-            
-    
+    {%include 'navbar.html'%}
     </div>
-
-        <div class="search-container">
-            <input type="text" placeholder="Busca por categoría o nombre de productos">
-        </div>
     
     <div class="cuadro">
         <!-- Contenido del cuadro -->
       
     </div>
 
-    <div class="footer">
-        <p>Todos los derechos reservados &copy; 2022</p>
-    </div>
+    {%include 'footer.html'%}
+   
     <script src="{% static 'js/home.js' %}"></script>
 </body>
 </html>
