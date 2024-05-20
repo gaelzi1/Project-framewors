@@ -19,3 +19,11 @@ def carShop (request):
     return HttpResponse("<h1>Card Page<h1>")
 def homeIniciado(request):
     return render(request,'homeIniciado.html')
+def nuevoDiseno(request):
+    return render(request,'nuevoDiseno.html')
+def cuentaUsuario(request):
+    return render(request, 'cuentaUsuario.html')
+def contactanos(request):
+    return render(request, 'contactanos.html')
+def editarUsuario(request):
+    return render(request, 'editarUsuario.html')
